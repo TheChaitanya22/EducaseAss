@@ -1,3 +1,3 @@
-Clone the repository
-Then do an `npm install`
-Then `npm run dev`
+Clone the repository <br />
+Then do an `npm install` <br />
+After that `npm run dev` <br />

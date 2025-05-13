@@ -1,0 +1,105 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  position: relative;
+  background: #f7f8f9 0% 0% no-repeat;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: white;
+  height: 68px;
+  width: 375px;
+}
+.heading {
+  position: relative;
+  top: 17px;
+  left: 15px;
+  width: 146px;
+  height: 22px;
+  text-align: left;
+  font-style: "rubik";
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avatar {
+  position: absolute;
+  top: 98px;
+  left: 20px;
+}
+.icon {
+  position: absolute;
+  top: 147px;
+  left: 79px;
+}
+
+.info {
+  position: absolute;
+  top: 88px;
+  left: 116px;
+  text-align: left;
+}
+
+.name {
+  font-style: "rubik";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.email {
+  position: absolute;
+  top: 25px;
+  font-style: "rubik";
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.content {
+  position: absolute;
+  top: 194px;
+  left: 20px;
+  width: 337px;
+  height: 63px;
+
+  text-align: left;
+  font-style: "rubik";
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}

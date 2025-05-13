@@ -1,0 +1,135 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  position: relative;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  justify-content: flex-end;
+}
+
+.heading {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 188px;
+  height: 69px;
+  text-align: left;
+  font-weight: 460;
+  font-family: "Rubik";
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.btn {
+  position: absolute;
+  height: 46px;
+  width: 335px;
+  border-radius: 6px;
+  top: 736px;
+  left: 20px;
+  font-weight: 465;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  border-width: 0px;
+  text-align: center;
+  font-style: normal;
+  background-color: #6c25ff;
+  color: white;
+}
+
+.input {
+  position: absolute;
+  left: 20px;
+  width: 335px;
+  height: 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 1;
+  padding-left: 14px;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.label {
+  position: absolute;
+  left: 34px;
+  width: 100px;
+  height: 15px;
+  text-align: left;
+  font-weight: 395;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #6c25ff;
+  opacity: 1;
+  z-index: 100;
+  background-color: #f7f8f9;
+  padding: 0 2px;
+}
+.name {
+  top: 131px;
+}
+.number {
+  top: 200px;
+}
+
+.password {
+  top: 338px;
+}
+.email {
+  top: 269px;
+}
+
+.company {
+  top: 407px;
+}
+.first {
+  top: 140px;
+}
+.second {
+  top: 209px;
+}
+
+.third {
+  top: 278px;
+}
+
+.fourth {
+  top: 347px;
+}
+
+.fifth {
+  top: 416px;
+}
+
+.radio {
+  position: absolute;
+  top: 474px;
+  left: 20px;
+  font: normal normal normal 13px/17px Rubik;
+}
+
+.option {
+  position: absolute;
+  top: 504px;
+  left: 20px;
+}
